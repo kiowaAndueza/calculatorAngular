@@ -1,0 +1,29 @@
+<div class="container">
+  <br><br><br><h1 class="title">{{title}}</h1>
+
+  <div class="calculator">
+      <form>
+          <input type="text" value="{{total}}" name="result" class="screen" disabled><br><br>
+          <input type="submit" value="C" (click)="clear()" class="operation">
+          <input type="submit" value="+" (click)="add()" class="operation">
+          <input type="submit" value="-" (click)="subtract()" class="operation">
+          <input type="submit" value="X" (click)="multiplication()" class="operation">
+          <input type="submit" value="Casio" class="operation" disabled>
+          <input type="submit" value="/" (click)="division()" class="operation">
+          <input type="submit" value="√" (click)="squareRoot()" class="operation">
+          <input type="submit" value="x^y" (click)="power()" class="operation2">
+
+          <div class="text-box">
+              <div class="margin-text">
+                  <p class="text">Element 1:</p>
+                  <input type="number" [(ngModel)]="num1" name="num1" class="number"> &nbsp;
+              </div>
+              <div>
+                  <p class="text">Element 2:</p>
+                  <input type="number" [(ngModel)]="num2" name="num2" class="number"><br/><br/>
+                  <br/>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>

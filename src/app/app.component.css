@@ -1,0 +1,65 @@
+.container{
+    margin: -10px -10px;
+    margin-top:-2.7em;
+    background-color: #C8F3F7;
+    width: 105%;
+    min-height: 50em;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.calculator{
+    box-sizing: content-box;
+    width: 30%;
+    background-color:white;
+    border: solid black 0.08em;
+    padding: 3em;
+    margin:0px auto;
+}
+
+.number{
+    font-size: 1.2em;
+}
+
+.operation, .operation2{
+    width: 23.8%;
+    font-size: 1.4em;
+    height: 100%;
+}
+
+.operation2{
+    font-size: 1.4em;
+    font-style: oblique;
+}
+
+.screen{
+    width: 95%;
+    font-size: 3em;
+}
+
+.text{
+    font-size: 1.4em;
+    margin-bottom: 0em;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.elements-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.margin-text{
+    margin-right: 6.5em;
+}
